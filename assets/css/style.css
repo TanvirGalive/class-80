@@ -1,0 +1,198 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+}
+a:hover { text-decoration: none }
+.feature-bg-1{background-image: url(../img/feature-1.jpg);}
+.feature-bg-2{background-image: url(../img/feature-2.jpg);}
+.feature-bg-3{background-image: url(../img/feature-3.jpg);}
+.feature-bg-4{background-image: url(../img/feature-4.jpg);}
+.header-area .logo {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+
+.header-area a {
+    color: #333;
+}
+
+.mainmenu {
+    text-align: right;
+}
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    padding: 20px;
+    display: block;
+    padding-right: 0;
+    padding-left: 45px;
+    transition: .3s;
+}
+
+.hero-area {
+    background: #1D1D20;
+    color: #fff;
+    padding-top: 230px;
+    padding-bottom: 160px;
+}
+
+.hero-area p,.hero-area a {
+    color: #777;
+    transition: .3s;
+}
+
+.hero-area h2 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.4;
+}
+
+.hero-area h2 span {
+    color: #E2BB26;
+}
+
+.header-area.header-absolute,.header-area.header-absolute a {
+    color: #fff;
+}
+
+.header-area.header-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.yellow-bg {
+    background-color: #E2BA25;
+    color: #fff;
+}
+
+.section-padding.yellow-bg h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.single-protfolio-item {
+    background-color: #ddd;
+    height: 320px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    float: left;
+    width: 56%;
+    background-size: cover;
+    background-position: center;
+}
+
+.protfolio-list {
+    margin-left: -2%;
+    overflow: hidden;
+}
+
+.single-protfolio-item.small-item {
+    width: 40%;
+}
+.dark-bg {
+    background-color: #1D1E20;
+    color: #777;
+}
+
+.cta-text h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cta-text {
+    font-size: 17px;
+}
+
+a.bordered-btn {
+    border: 2px solid #DEB900;
+    color: #DEB900;
+    font-weight: 600;
+    padding: 15px 70px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: .3s;
+}
+
+.footer-area {
+    border-top: 1px solid #333;
+    background-color: #1D1E20;
+    padding: 30px 0;
+}
+
+.footer-area,.footer-area
+ a {
+    color: #777;
+}
+
+.social-icons i.fa {
+    font-size: 20px;
+    padding-left: 20px;
+    transition: .3s;
+}
+
+.social-icons {
+}
+
+.mainmenu li:hover a {
+    color: #DEB900;
+}
+
+a.bordered-btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.social-icons i.fa:hover {
+    color: #DEB900;
+}
+.hero-area a:hover {
+    color: #DEB900;
+}
